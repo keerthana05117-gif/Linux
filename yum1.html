@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pikachu Theme </title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #FFE066, #FFCD00);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            color: #3a2a00;
+            text-shadow: 2px 2px 0px #fff;
+        }
+
+        .header h1 {
+            font-size: 3.2rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .pikachu-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .pikachu-card {
+            background: #fffbe6;
+            border-radius: 20px;
+            padding: 30px;
+            width: 330px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+            text-align: center;
+            border: 3px solid #ffdd4f;
+        }
+
+        .pikachu-card img {
+            width: 100%;
+            border-radius: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+            100% { transform: translateY(0); }
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 28px;
+            background: #FFEB3B;
+            color: #3a2a00;
+            font-weight: bold;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1rem;
+            border: 2px solid #d4b000;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #f7d600;
+            transform: scale(1.08);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>⚡ Pikachu World Keerthana⚡</h1>
+        <p>Bright • Cute • Electric</p>
+    </div>
+
+    <div class="pikachu-container">
+        <div class="pikachu-card">
+            <img src="pik.jpg" alt="Pikachu">
+            <a class="btn" href="#">Explore More</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Pikachu Theme • Designed for S3 Static Website
+    </footer>
+
+</body>
+</html>

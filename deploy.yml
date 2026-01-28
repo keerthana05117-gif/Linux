@@ -20,7 +20,7 @@
 
     - name: Copy HTML/CSS/JS assets
       ansible.builtin.copy:
-        src: "{{ item }}"
+        src: "Linux/"
         dest: "{{ web_root }}/"
         owner: "{{ web_owner }}"
         group: "{{ web_group }}"
@@ -48,4 +48,5 @@
     - name: Restart web server
       ansible.builtin.service:
         name: "{{ service_name }}"
+
         state: restarted

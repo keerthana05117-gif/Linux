@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Dark Purple",
+  "version": 2,
+  "settings": {
+    "color": {
+		"palette": [
+			{
+				"color": "#280a2c",
+				"name": "Accent",
+				"slug": "accent"
+			},
+			{
+				"color": "#f4dff5",
+				"name": "Secaccent",
+				"slug": "secaccent"
+			},
+			{
+				"color": "#a742b3",
+				"name": "Thirdaccent",
+				"slug": "thirdaccent"
+			},
+			{
+				"color": "#d57bdc",
+				"name": "Fourthaccent",
+				"slug": "fourthaccent"
+			},
+			{
+				"color": "#a742b34d",
+				"name": "Background Light",
+				"slug": "background-light"
+			},
+			{
+				"color": "#a742b380",
+				"name": "Background Light1",
+				"slug": "background-light-1"
+			},
+			{
+				"color": "#1A1A1A",
+				"name": "Text Color",
+				"slug": "text-color"
+			},
+			{
+				"color": "#19051a",
+				"name": "Dark Background",
+				"slug": "dark-background"
+			},
+			{
+				"color": "#fff",
+				"name": "Background",
+				"slug": "background"
+			},
+			{
+				"color": "#f5fafd",
+				"name": "Fourground",
+				"slug": "fourground"
+			},
+			{
+				"color": "#ebf3ff",
+				"name": "Secbackground",
+				"slug": "secbackground"
+			},
+			{
+				"color": "#000000",
+				"name": "primary",
+				"slug": "primary"
+			},
+			{
+				"color": "#fff",
+				"name": "Secondary",
+				"slug": "secondary"
+			},
+			{
+				"color": "#121212",
+				"name": "tertiary",
+				"slug": "tertiary"
+			}
+		]
+    }
+  }
+}
